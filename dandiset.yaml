@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -21,9 +22,16 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- name: Whitehead, Samuel C
+  schemaKey: Person
+- name: Teoh, Han Kheng
+  schemaKey: Person
+- name: Cohen, Itai
+  schemaKey: Person
 dateCreated: '2026-05-20T21:39:47.909067+00:00'
 description: Behavioral data presented in the paper "A multi-muscular, redundant strategy
   for free-flight roll stability" by B. Kemper Ludlow et al
+ethicsApproval: []
 id: DANDI:001851/draft
 identifier: DANDI:001851
 license:
@@ -32,8 +40,12 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001851/versions/draft/assets/
 name: A multi-muscular, redundant strategy for free-flight roll stability behavioral
   data archive
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- drosophila
 url: https://dandiarchive.org/dandiset/001851/draft
 version: draft
+wasGeneratedBy: []
