@@ -33,8 +33,8 @@ assetsSummary:
   - SpatialSeries
   - OptogeneticSeries
 citation: Ludlow, Brianna (2026) A multi-muscular, redundant strategy for free-flight
-  roll stability behavioral data archive (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001851/draft
+  roll stability behavioral data archive (Version 0.260521.0237) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001851/0.260521.0237
 contributor:
 - affiliation: []
   email: bkl48@cornell.edu
@@ -50,23 +50,37 @@ contributor:
 - name: Cohen, Itai
   schemaKey: Person
 dateCreated: '2026-05-20T21:39:47.909067+00:00'
+datePublished: '2026-05-21T02:37:10.634767+00:00'
 description: Behavioral data presented in the paper "A multi-muscular, redundant strategy
   for free-flight roll stability" by B. Kemper Ludlow et al
+doi: 10.48324/dandi.001851/0.260521.0237
 ethicsApproval: []
-id: DANDI:001851/draft
+id: DANDI:001851/0.260521.0237
 identifier: DANDI:001851
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001851/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001851/0.260521.0237/assets.yaml
 name: A multi-muscular, redundant strategy for free-flight roll stability behavioral
   data archive
+publishedBy:
+  endDate: '2026-05-21T02:37:10.634767+00:00'
+  id: urn:uuid:1fe8c951-e802-4258-b308-668ec9712b54
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-05-21T02:37:10.634767+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:23123e98-3bd4-441d-89b8-7f0dafc07ced
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
 - drosophila
-url: https://dandiarchive.org/dandiset/001851/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001851/0.260521.0237
+version: 0.260521.0237
 wasGeneratedBy: []
