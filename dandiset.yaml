@@ -8,9 +8,30 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: optogenetic approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 27667046714
+  numberOfFiles: 1259
+  numberOfSubjects: 619
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
+    name: Drosophila melanogaster - Fruit fly
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CompassDirection
+  - SpatialSeries
+  - OptogeneticSeries
 citation: Ludlow, Brianna (2026) A multi-muscular, redundant strategy for free-flight
   roll stability behavioral data archive (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001851/draft
